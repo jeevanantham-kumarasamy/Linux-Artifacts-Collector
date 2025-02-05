@@ -6,6 +6,7 @@ The Linux Forensic Artifact Collector is an automated Bash script designed to ga
 The script is built to run with sudo/root privileges and ensures that key forensic evidence is preserved in a structured format. The collected data is then compressed and stored in the Downloads directory for further analysis.
 
 #Working Model:-
+
 1️⃣ System Identification
 The script first determines whether the system is a workstation (GUI-based) or a server (headless).
 This helps in adjusting the type of artifacts collected based on the environment.
@@ -42,10 +43,10 @@ sudo ./forensic_collector.sh
 Upon execution, the script will:
 
 Detect the system type.
-Collect relevant forensic artifacts.
-Validate the presence of inotifywait and install it if missing.
-Monitor file activities for forensic investigation.
-Compress and store the data securely.
+✔ Collect relevant forensic artifacts.
+✔ Validate the presence of inotifywait and install it if missing.
+✔ Monitor file activities for forensic investigation.
+✔ Compress and store the data securely.
 
 
 Why Use This Tool?

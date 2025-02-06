@@ -29,12 +29,11 @@ This ensures that the forensic data remains intact and easily accessible.
 ## Usage
 Run the script with sudo privileges:
 ```bash
-sudo ./forensic_collector.sh
+sudo ./LAC.sh
 ```
 Upon execution, the script will:
 - Detect the system type.
 - Collect relevant forensic artifacts.
-- Validate the presence of `inotifywait` and install it if missing.
 - Monitor file activities for forensic investigation.
 - Compress and store the data securely.
 ## Why Use This Tool?
